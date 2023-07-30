@@ -1,0 +1,10 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+<div class="border-top pt-3 text-center">
+  {% load crispy_forms_tags %}
+  <h2>You are logged Out</h2>
+
+  <small class="text-muted"
+    ><a class="btn btn-danger" href="/login/">Log In Again</a>
+  </small>
+</div>
+{% endblock content %}
